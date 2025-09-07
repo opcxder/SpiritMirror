@@ -16,6 +16,7 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.example
 
 # IDE and editor files
 .vscode/
@@ -84,3 +85,6 @@ Spirit Animal Discovery Website.docx
 
 # TypeScript
 *.tsbuildinfo
+
+#readme
+README-DEV.md

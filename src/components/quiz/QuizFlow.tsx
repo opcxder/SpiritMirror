@@ -56,6 +56,9 @@ export default function QuizFlow({ questions, onComplete, onSkip }: QuizFlowProp
 
   // Find previously selected option for current question
   const previouslySelectedOption = responses.find(r => r.questionId === currentQuestion.id)?.selectedOption
+  
+  // Determine if user is reviewing a previous question
+  const isReviewing = currentQuestionIndex < highestAnsweredQuestion
 
   /**
    * Calculate quiz progress for display
@@ -272,6 +275,7 @@ export default function QuizFlow({ questions, onComplete, onSkip }: QuizFlowProp
           onAnswer={handleAnswerSelect}
           onSkip={handleQuestionSkip}
           previouslySelected={previouslySelectedOption}
+          isReviewing={isReviewing}
         />
       </div>
 

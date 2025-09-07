@@ -43,7 +43,8 @@ export default function QuestionCard({
   totalQuestions, 
   onAnswer, 
   onSkip,
-  previouslySelected
+  previouslySelected,
+  isReviewing = false
 }: QuestionProps) {
   // State for selected option and hover effects
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
@@ -157,7 +158,7 @@ export default function QuestionCard({
             onMouseEnter={() => handleOptionHover(option.id)}
             onMouseLeave={handleOptionHoverEnd}
             className={getOptionStyling(option.id)}
-            disabled={selectedOption !== null}
+            disabled={selectedOption !== null && !isReviewing}
             aria-label={`Select option ${option.id}: ${option.text}`}
           >
             <div className="flex items-center">
@@ -186,9 +187,9 @@ export default function QuestionCard({
       <div className="text-center">
         <button
           onClick={onSkip}
-          disabled={selectedOption !== null}
+          disabled={selectedOption !== null && !isReviewing}
           className={`text-silver-fog hover:text-charcoal-mist transition-colors duration-200 ${
-            selectedOption !== null ? 'opacity-50 cursor-not-allowed' : ''
+            selectedOption !== null && !isReviewing ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           aria-label="Skip this question"
         >

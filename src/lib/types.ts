@@ -146,6 +146,7 @@ export interface QuestionProps {
   questionNumber: number;        // Current question number (for progress display)
   totalQuestions: number;        // Total number of questions
   previouslySelected?: string;   // Previously selected option ID (for going back)
+  isReviewing?: boolean;         // Whether user is reviewing a previous question
 }
 
 // ============================================================================

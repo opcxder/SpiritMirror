@@ -99,7 +99,7 @@ export const metadata: Metadata = {
     description: 'Discover your true spirit animal through our intelligent questionnaire. Get personalized insights about your personality, strengths, and life path.',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Spirit Animal Discovery - Mystical forest with spirit animals',
