@@ -76,6 +76,9 @@ export default function Navbar() {
             <Link href="/animals" className={getLinkStyle('/animals')}>
               Animals
             </Link>
+            <Link href="/blog" className={getLinkStyle('/blog')}>
+              Blog
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -99,6 +102,9 @@ export default function Navbar() {
             </Link>
             <Link href="/animals" className={getLinkStyle('/animals')}>
               Animals
+            </Link>
+            <Link href="/blog" className={getLinkStyle('/blog')}>
+              Blog
             </Link>
           </div>
         </div>
