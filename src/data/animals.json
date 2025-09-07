@@ -1,0 +1,682 @@
+[
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "scientificName": "Canis lupus",
+    "primaryTraits": ["Leadership", "Loyalty", "Family Bonds", "Intuition"],
+    "description": "The Wolf spirit animal represents deep loyalty, strong family bonds, and natural leadership. Wolves are pack animals who understand the importance of community while maintaining their individual strength. They are intuitive, protective, and have a strong sense of purpose.",
+    "strengths": [
+      "Natural leadership abilities",
+      "Deep loyalty to family and friends",
+      "Strong intuition and instincts",
+      "Excellent teamwork skills",
+      "Protective nature",
+      "Adaptability in different situations"
+    ],
+    "challenges": [
+      "Can be overly protective",
+      "May struggle with independence",
+      "Tendency to take on too much responsibility",
+      "Can be territorial"
+    ],
+    "lifeLesson": "Learn to balance leadership with humility, and remember that true strength comes from supporting others while maintaining your own identity.",
+    "mythologyBackground": "In Native American traditions, the wolf is often seen as a teacher and pathfinder. In Norse mythology, wolves are associated with Odin and represent both destruction and creation. Celtic traditions view wolves as guardians of the otherworld.",
+    "colorSymbolism": "Gray, white, and black - representing the balance between light and dark, wisdom and mystery.",
+    "compatibleAnimals": ["eagle", "bear", "raven"],
+    "imageUrl": "/images/animals/wolf.jpg",
+    "habitat": "Forests, mountains, tundra, and grasslands across North America, Europe, and Asia",
+    "culturalSignificance": [
+      "Native American: Teacher and pathfinder",
+      "Norse: Associated with Odin and Ragnarok",
+      "Celtic: Guardian of the otherworld",
+      "Roman: Sacred to Mars, god of war"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "eagle",
+    "name": "Eagle",
+    "scientificName": "Aquila chrysaetos",
+    "primaryTraits": ["Vision", "Freedom", "Spiritual Connection", "Courage"],
+    "description": "The Eagle spirit animal symbolizes vision, freedom, and spiritual enlightenment. Eagles soar high above the earth, seeing the bigger picture and connecting the physical world with the spiritual realm. They represent courage, strength, and the ability to rise above challenges.",
+    "strengths": [
+      "Exceptional vision and perspective",
+      "Natural leadership and authority",
+      "Spiritual awareness and connection",
+      "Courage in the face of adversity",
+      "Independence and self-reliance",
+      "Ability to see opportunities others miss"
+    ],
+    "challenges": [
+      "Can be overly independent",
+      "May struggle with details",
+      "Tendency to be aloof or distant",
+      "Can be impatient with slower processes"
+    ],
+    "lifeLesson": "Learn to balance your high-flying nature with grounding practices, and remember that true freedom comes from understanding your connection to all things.",
+    "mythologyBackground": "In many cultures, the eagle is a messenger between heaven and earth. In Greek mythology, the eagle is associated with Zeus. Native American traditions see the eagle as a sacred messenger and symbol of spiritual power.",
+    "colorSymbolism": "Gold, brown, and white - representing the sun, earth, and spiritual purity.",
+    "compatibleAnimals": ["lion", "wolf", "hawk"],
+    "imageUrl": "/images/animals/eagle.jpg",
+    "habitat": "Mountains, cliffs, and open areas with good visibility across North America, Europe, and Asia",
+    "culturalSignificance": [
+      "Native American: Sacred messenger to the Great Spirit",
+      "Greek: Symbol of Zeus and divine power",
+      "Roman: Symbol of imperial power and victory",
+      "Celtic: Associated with the sun and sky gods"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "scientificName": "Panthera leo",
+    "primaryTraits": ["Courage", "Strength", "Natural Leadership", "Royalty"],
+    "description": "The Lion spirit animal embodies courage, strength, and natural leadership. Known as the 'King of the Jungle,' lions represent authority, confidence, and the ability to protect and provide for their pride. They are symbols of power, dignity, and noble character.",
+    "strengths": [
+      "Natural leadership and authority",
+      "Courage in all situations",
+      "Protective instincts",
+      "Confidence and charisma",
+      "Strength and determination",
+      "Ability to inspire others"
+    ],
+    "challenges": [
+      "Can be overly dominant",
+      "May struggle with vulnerability",
+      "Tendency to be prideful",
+      "Can be impatient with weakness"
+    ],
+    "lifeLesson": "Learn to lead with both strength and compassion, and remember that true power comes from serving and protecting others, not from dominating them.",
+    "mythologyBackground": "In ancient Egypt, the lion was associated with the goddess Sekhmet and represented divine power. In Greek mythology, the Nemean Lion was a symbol of strength and courage. African traditions see the lion as a symbol of royalty and spiritual power.",
+    "colorSymbolism": "Gold, amber, and brown - representing the sun, fire, and earth's power.",
+    "compatibleAnimals": ["eagle", "tiger", "bear"],
+    "imageUrl": "/images/animals/lion.jpg",
+    "habitat": "Savannas, grasslands, and open woodlands of Africa and parts of Asia",
+    "culturalSignificance": [
+      "Egyptian: Associated with Sekhmet and divine power",
+      "Greek: Symbol of strength and courage",
+      "African: Symbol of royalty and spiritual power",
+      "Chinese: Symbol of power and good fortune"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "bear",
+    "name": "Bear",
+    "scientificName": "Ursus arctos",
+    "primaryTraits": ["Protection", "Healing", "Introspection", "Strength"],
+    "description": "The Bear spirit animal represents protection, healing, and deep introspection. Bears are powerful yet gentle creatures who understand the importance of rest, healing, and inner wisdom. They are symbols of strength, courage, and the ability to protect what matters most.",
+    "strengths": [
+      "Protective instincts",
+      "Healing abilities",
+      "Deep wisdom and introspection",
+      "Physical and emotional strength",
+      "Patience and persistence",
+      "Connection to nature and cycles"
+    ],
+    "challenges": [
+      "Can be overly protective",
+      "May struggle with change",
+      "Tendency to isolate during healing",
+      "Can be slow to trust"
+    ],
+    "lifeLesson": "Learn to balance your protective nature with allowing others to grow, and remember that healing often requires both solitude and connection.",
+    "mythologyBackground": "In Native American traditions, the bear is often associated with healing and medicine. In Celtic mythology, bears represent strength and sovereignty. Norse traditions see the bear as a symbol of berserker warriors and divine strength.",
+    "colorSymbolism": "Brown, black, and white - representing earth, mystery, and purity.",
+    "compatibleAnimals": ["wolf", "owl", "turtle"],
+    "imageUrl": "/images/animals/bear.jpg",
+    "habitat": "Forests, mountains, and tundra across North America, Europe, and Asia",
+    "culturalSignificance": [
+      "Native American: Medicine and healing",
+      "Celtic: Strength and sovereignty",
+      "Norse: Berserker warriors and divine strength",
+      "Siberian: Shamanic power and transformation"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "scientificName": "Panthera tigris",
+    "primaryTraits": ["Personal Power", "Passion", "Devotion", "Intensity"],
+    "description": "The Tiger spirit animal embodies personal power, passion, and intense devotion. Tigers are fierce, independent, and incredibly powerful creatures who move with grace and determination. They represent raw energy, personal strength, and the courage to pursue one's goals with unwavering focus.",
+    "strengths": [
+      "Intense personal power",
+      "Passionate and devoted nature",
+      "Graceful strength and agility",
+      "Independent spirit",
+      "Courage and determination",
+      "Ability to focus intensely"
+    ],
+    "challenges": [
+      "Can be overly intense",
+      "May struggle with patience",
+      "Tendency to be solitary",
+      "Can be aggressive when threatened"
+    ],
+    "lifeLesson": "Learn to channel your intense energy constructively, and remember that true power comes from inner strength and self-mastery, not from dominating others.",
+    "mythologyBackground": "In Chinese culture, the tiger is one of the four sacred animals and represents yang energy. In Hindu mythology, the tiger is associated with the goddess Durga and represents divine feminine power. Korean traditions see the tiger as a guardian spirit.",
+    "colorSymbolism": "Orange, black, and white - representing fire, mystery, and purity.",
+    "compatibleAnimals": ["lion", "eagle", "panther"],
+    "imageUrl": "/images/animals/tiger.jpg",
+    "habitat": "Dense forests, grasslands, and mangrove swamps of Asia",
+    "culturalSignificance": [
+      "Chinese: One of four sacred animals, yang energy",
+      "Hindu: Associated with goddess Durga",
+      "Korean: Guardian spirit and protector",
+      "Siberian: Shamanic power and transformation"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "owl",
+    "name": "Owl",
+    "scientificName": "Bubo bubo",
+    "primaryTraits": ["Wisdom", "Intuition", "Seeing Truth", "Mystery"],
+    "description": "The Owl spirit animal represents wisdom, intuition, and the ability to see through deception. Owls are mysterious creatures of the night who possess incredible wisdom and insight. They are symbols of knowledge, truth, and the ability to navigate through darkness with clarity.",
+    "strengths": [
+      "Deep wisdom and knowledge",
+      "Strong intuition and insight",
+      "Ability to see truth clearly",
+      "Mysterious and enigmatic nature",
+      "Excellent observation skills",
+      "Connection to the spiritual realm"
+    ],
+    "challenges": [
+      "Can be overly analytical",
+      "May struggle with social connections",
+      "Tendency to be secretive",
+      "Can be intimidating to others"
+    ],
+    "lifeLesson": "Learn to share your wisdom with others in accessible ways, and remember that true knowledge comes from both study and experience.",
+    "mythologyBackground": "In Greek mythology, the owl is associated with Athena, goddess of wisdom. Native American traditions see the owl as a messenger of secrets and a guide through the spirit world. Celtic traditions associate owls with the otherworld and wisdom.",
+    "colorSymbolism": "Brown, gray, and white - representing earth, mystery, and spiritual purity.",
+    "compatibleAnimals": ["raven", "fox", "bear"],
+    "imageUrl": "/images/animals/owl.jpg",
+    "habitat": "Forests, woodlands, and open areas with trees across most continents",
+    "culturalSignificance": [
+      "Greek: Associated with Athena and wisdom",
+      "Native American: Messenger of secrets and spirit guide",
+      "Celtic: Associated with the otherworld",
+      "Hindu: Vehicle of Lakshmi, goddess of wealth"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "raven",
+    "name": "Raven",
+    "scientificName": "Corvus corax",
+    "primaryTraits": ["Intelligence", "Adaptability", "Magic", "Transformation"],
+    "description": "The Raven spirit animal embodies intelligence, adaptability, and magical transformation. Ravens are incredibly intelligent birds who are masters of adaptation and change. They are symbols of magic, mystery, and the ability to transform oneself through wisdom and insight.",
+    "strengths": [
+      "Exceptional intelligence",
+      "Adaptability and flexibility",
+      "Magical and mystical nature",
+      "Ability to transform and change",
+      "Strong communication skills",
+      "Connection to the spirit world"
+    ],
+    "challenges": [
+      "Can be mischievous or tricky",
+      "May struggle with consistency",
+      "Tendency to be mysterious",
+      "Can be seen as ominous"
+    ],
+    "lifeLesson": "Learn to use your intelligence and adaptability for positive transformation, and remember that change is a natural part of growth and evolution.",
+    "mythologyBackground": "In Norse mythology, ravens are associated with Odin and represent thought and memory. Native American traditions see the raven as a trickster and creator. Celtic traditions associate ravens with prophecy and the otherworld.",
+    "colorSymbolism": "Black and iridescent - representing mystery, magic, and the void of potential.",
+    "compatibleAnimals": ["owl", "fox", "wolf"],
+    "imageUrl": "/images/animals/raven.jpg",
+    "habitat": "Forests, mountains, and coastal areas across North America, Europe, and Asia",
+    "culturalSignificance": [
+      "Norse: Associated with Odin, thought and memory",
+      "Native American: Trickster and creator",
+      "Celtic: Prophecy and the otherworld",
+      "Japanese: Messenger of the gods"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "scientificName": "Vulpes vulpes",
+    "primaryTraits": ["Cunning", "Adaptability", "Cleverness", "Quick Thinking"],
+    "description": "The Fox spirit animal represents cunning, adaptability, and quick thinking. Foxes are incredibly clever creatures who excel at problem-solving and adapting to changing circumstances. They are symbols of intelligence, resourcefulness, and the ability to navigate complex situations with grace.",
+    "strengths": [
+      "Exceptional cunning and cleverness",
+      "Adaptability and flexibility",
+      "Quick thinking and problem-solving",
+      "Resourcefulness and creativity",
+      "Ability to navigate complex situations",
+      "Charming and charismatic nature"
+    ],
+    "challenges": [
+      "Can be overly cunning",
+      "May struggle with trust",
+      "Tendency to be secretive",
+      "Can be seen as manipulative"
+    ],
+    "lifeLesson": "Learn to use your cleverness for the benefit of others, and remember that true wisdom comes from balancing intelligence with integrity.",
+    "mythologyBackground": "In Japanese folklore, the fox (kitsune) is a shape-shifting spirit with magical powers. Native American traditions see the fox as a teacher of survival skills. Celtic traditions associate foxes with cunning and adaptability.",
+    "colorSymbolism": "Red, orange, and white - representing fire, energy, and purity.",
+    "compatibleAnimals": ["raven", "owl", "cat"],
+    "imageUrl": "/images/animals/fox.jpg",
+    "habitat": "Forests, grasslands, and urban areas across most continents",
+    "culturalSignificance": [
+      "Japanese: Kitsune, shape-shifting spirit with magical powers",
+      "Native American: Teacher of survival skills",
+      "Celtic: Cunning and adaptability",
+      "Chinese: Symbol of good fortune and prosperity"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "scientificName": "Serpentes",
+    "primaryTraits": ["Transformation", "Healing", "Renewal", "Wisdom"],
+    "description": "The Snake spirit animal embodies transformation, healing, and renewal. Snakes are powerful symbols of change, shedding their skin to represent rebirth and transformation. They are associated with healing, wisdom, and the cyclical nature of life, death, and rebirth.",
+    "strengths": [
+      "Powerful transformation abilities",
+      "Healing and renewal energy",
+      "Deep wisdom and intuition",
+      "Connection to life cycles",
+      "Ability to shed the old and embrace the new",
+      "Sensual and mysterious nature"
+    ],
+    "challenges": [
+      "Can be seen as dangerous",
+      "May struggle with trust",
+      "Tendency to be secretive",
+      "Can be intimidating to others"
+    ],
+    "lifeLesson": "Learn to embrace change and transformation as natural parts of growth, and remember that healing often requires letting go of what no longer serves you.",
+    "mythologyBackground": "In many cultures, the snake represents both creation and destruction. In Greek mythology, the snake is associated with Asclepius, god of healing. Native American traditions see the snake as a symbol of transformation and renewal.",
+    "colorSymbolism": "Green, brown, and gold - representing nature, earth, and transformation.",
+    "compatibleAnimals": ["owl", "panther", "raven"],
+    "imageUrl": "/images/animals/snake.jpg",
+    "habitat": "Forests, deserts, grasslands, and water bodies across all continents except Antarctica",
+    "culturalSignificance": [
+      "Greek: Associated with Asclepius and healing",
+      "Native American: Transformation and renewal",
+      "Hindu: Kundalini energy and spiritual awakening",
+      "Chinese: Symbol of wisdom and good fortune"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "panther",
+    "name": "Panther",
+    "scientificName": "Panthera pardus",
+    "primaryTraits": ["Power", "Protection", "Courage", "Mystery"],
+    "description": "The Panther spirit animal represents power, protection, and mysterious strength. Panthers are powerful, stealthy creatures who move with grace and determination. They are symbols of courage, protection, and the ability to navigate through darkness with confidence and strength.",
+    "strengths": [
+      "Powerful and stealthy nature",
+      "Protective instincts",
+      "Courage and determination",
+      "Mysterious and enigmatic presence",
+      "Ability to navigate darkness",
+      "Graceful strength and agility"
+    ],
+    "challenges": [
+      "Can be overly secretive",
+      "May struggle with vulnerability",
+      "Tendency to be solitary",
+      "Can be intimidating to others"
+    ],
+    "lifeLesson": "Learn to balance your mysterious nature with openness when appropriate, and remember that true power comes from inner strength and self-confidence.",
+    "mythologyBackground": "In many cultures, the panther is associated with the night and the underworld. In Greek mythology, the panther is associated with Dionysus and represents wild, untamed power. Native American traditions see the panther as a powerful protector spirit.",
+    "colorSymbolism": "Black and gold - representing mystery, power, and the night.",
+    "compatibleAnimals": ["tiger", "snake", "owl"],
+    "imageUrl": "/images/animals/panther.jpg",
+    "habitat": "Dense forests, mountains, and grasslands across Africa and Asia",
+    "culturalSignificance": [
+      "Greek: Associated with Dionysus and wild power",
+      "Native American: Powerful protector spirit",
+      "African: Symbol of royalty and power",
+      "Celtic: Guardian of the otherworld"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "scientificName": "Delphinus delphis",
+    "primaryTraits": ["Joy", "Harmony", "Connection", "Playfulness"],
+    "description": "The Dolphin spirit animal embodies joy, harmony, and deep connection. Dolphins are incredibly intelligent and social creatures who bring joy and playfulness to everything they do. They are symbols of harmony, communication, and the ability to find joy in life's journey.",
+    "strengths": [
+      "Joyful and playful nature",
+      "Strong social connections",
+      "Intelligence and communication",
+      "Harmony and balance",
+      "Healing and therapeutic abilities",
+      "Optimistic and positive outlook"
+    ],
+    "challenges": [
+      "Can be overly social",
+      "May struggle with solitude",
+      "Tendency to avoid serious situations",
+      "Can be seen as superficial"
+    ],
+    "lifeLesson": "Learn to balance playfulness with depth, and remember that joy is a powerful force for healing and connection in the world.",
+    "mythologyBackground": "In Greek mythology, dolphins are associated with Poseidon and represent the sea's power and beauty. Native American traditions see dolphins as messengers between the physical and spiritual worlds. Celtic traditions associate dolphins with healing and transformation.",
+    "colorSymbolism": "Blue, silver, and white - representing water, harmony, and purity.",
+    "compatibleAnimals": ["otter", "elephant", "monkey"],
+    "imageUrl": "/images/animals/dolphin.jpg",
+    "habitat": "Oceans and seas worldwide, from tropical to temperate waters",
+    "culturalSignificance": [
+      "Greek: Associated with Poseidon and sea power",
+      "Native American: Messenger between worlds",
+      "Celtic: Healing and transformation",
+      "Polynesian: Guardian of the sea and navigation"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "elephant",
+    "name": "Elephant",
+    "scientificName": "Elephas maximus",
+    "primaryTraits": ["Memory", "Wisdom", "Family Bonds", "Strength"],
+    "description": "The Elephant spirit animal represents memory, wisdom, and strong family bonds. Elephants are incredibly intelligent and emotional creatures who never forget and deeply care for their family members. They are symbols of wisdom, memory, and the importance of family and community.",
+    "strengths": [
+      "Exceptional memory and wisdom",
+      "Strong family bonds and loyalty",
+      "Emotional intelligence",
+      "Gentle strength and power",
+      "Leadership and guidance",
+      "Connection to ancient wisdom"
+    ],
+    "challenges": [
+      "Can be slow to change",
+      "May struggle with letting go",
+      "Tendency to hold onto past hurts",
+      "Can be overly protective"
+    ],
+    "lifeLesson": "Learn to use your wisdom and memory to guide others while also knowing when to let go of what no longer serves you or your community.",
+    "mythologyBackground": "In Hindu mythology, the elephant is associated with Ganesha, the remover of obstacles. In African traditions, elephants are symbols of wisdom and royalty. Buddhist traditions see elephants as symbols of mental strength and determination.",
+    "colorSymbolism": "Gray, white, and gold - representing wisdom, purity, and divine connection.",
+    "compatibleAnimals": ["bear", "wolf", "turtle"],
+    "imageUrl": "/images/animals/elephant.jpg",
+    "habitat": "Forests, grasslands, and savannas of Africa and Asia",
+    "culturalSignificance": [
+      "Hindu: Associated with Ganesha, remover of obstacles",
+      "African: Symbol of wisdom and royalty",
+      "Buddhist: Mental strength and determination",
+      "Chinese: Symbol of good luck and wisdom"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "scientificName": "Equus caballus",
+    "primaryTraits": ["Freedom", "Nobility", "Strength", "Journey"],
+    "description": "The Horse spirit animal embodies freedom, nobility, and the power of journey. Horses are symbols of freedom, strength, and the ability to carry us through life's journeys. They represent nobility, grace, and the connection between the physical and spiritual realms.",
+    "strengths": [
+      "Love of freedom and independence",
+      "Noble and graceful nature",
+      "Physical and emotional strength",
+      "Ability to carry others on their journey",
+      "Connection to the earth and sky",
+      "Loyalty and devotion"
+    ],
+    "challenges": [
+      "Can be overly independent",
+      "May struggle with confinement",
+      "Tendency to be restless",
+      "Can be stubborn"
+    ],
+    "lifeLesson": "Learn to balance your need for freedom with responsibility to others, and remember that true freedom comes from inner strength and self-mastery.",
+    "mythologyBackground": "In Greek mythology, horses are associated with Poseidon and represent the power of the sea. Native American traditions see horses as symbols of power and freedom. Celtic traditions associate horses with the sun and fertility.",
+    "colorSymbolism": "Brown, black, and white - representing earth, mystery, and purity.",
+    "compatibleAnimals": ["eagle", "lion", "dolphin"],
+    "imageUrl": "/images/animals/horse.jpg",
+    "habitat": "Grasslands, plains, and open areas worldwide (domesticated)",
+    "culturalSignificance": [
+      "Greek: Associated with Poseidon and sea power",
+      "Native American: Symbol of power and freedom",
+      "Celtic: Associated with sun and fertility",
+      "Chinese: Symbol of success and prosperity"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "cat",
+    "name": "Cat",
+    "scientificName": "Felis catus",
+    "primaryTraits": ["Independence", "Mystery", "Magic", "Intuition"],
+    "description": "The Cat spirit animal represents independence, mystery, and magical intuition. Cats are independent, mysterious creatures who move between the physical and spiritual worlds with ease. They are symbols of magic, intuition, and the ability to see beyond the ordinary.",
+    "strengths": [
+      "Strong independence and self-reliance",
+      "Mysterious and enigmatic nature",
+      "Magical and intuitive abilities",
+      "Grace and agility",
+      "Ability to see beyond the ordinary",
+      "Connection to the spiritual realm"
+    ],
+    "challenges": [
+      "Can be overly independent",
+      "May struggle with commitment",
+      "Tendency to be aloof",
+      "Can be unpredictable"
+    ],
+    "lifeLesson": "Learn to balance your independence with connection to others, and remember that true magic comes from within and is meant to be shared.",
+    "mythologyBackground": "In ancient Egypt, cats were sacred to the goddess Bastet and represented protection and fertility. In Celtic traditions, cats are associated with the otherworld and magic. Japanese folklore sees cats as shape-shifting spirits with magical powers.",
+    "colorSymbolism": "Black, white, and various colors - representing mystery, purity, and the full spectrum of magic.",
+    "compatibleAnimals": ["owl", "panther", "fox"],
+    "imageUrl": "/images/animals/cat.jpg",
+    "habitat": "Worldwide (domesticated), originally from Africa and the Middle East",
+    "culturalSignificance": [
+      "Egyptian: Sacred to Bastet, protection and fertility",
+      "Celtic: Associated with otherworld and magic",
+      "Japanese: Shape-shifting spirits with magical powers",
+      "Norse: Associated with Freyja and fertility"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "deer",
+    "name": "Deer",
+    "scientificName": "Cervidae",
+    "primaryTraits": ["Gentleness", "Grace", "Sensitivity", "Intuition"],
+    "description": "The Deer spirit animal embodies gentleness, grace, and sensitive intuition. Deer are gentle, graceful creatures who are highly sensitive to their environment and possess strong intuitive abilities. They are symbols of gentleness, grace, and the ability to move through life with sensitivity and awareness.",
+    "strengths": [
+      "Gentle and graceful nature",
+      "High sensitivity and awareness",
+      "Strong intuitive abilities",
+      "Ability to move with grace and ease",
+      "Connection to nature and cycles",
+      "Peaceful and harmonious presence"
+    ],
+    "challenges": [
+      "Can be overly sensitive",
+      "May struggle with confrontation",
+      "Tendency to be timid",
+      "Can be easily overwhelmed"
+    ],
+    "lifeLesson": "Learn to balance your sensitivity with strength, and remember that gentleness is a form of power that can heal and transform the world.",
+    "mythologyBackground": "In Celtic traditions, deer are associated with the otherworld and represent gentleness and grace. Native American traditions see deer as symbols of sensitivity and intuition. In Chinese culture, deer represent longevity and good fortune.",
+    "colorSymbolism": "Brown, white, and gold - representing earth, purity, and spiritual connection.",
+    "compatibleAnimals": ["rabbit", "turtle", "owl"],
+    "imageUrl": "/images/animals/deer.jpg",
+    "habitat": "Forests, grasslands, and mountains across most continents",
+    "culturalSignificance": [
+      "Celtic: Associated with otherworld and grace",
+      "Native American: Symbol of sensitivity and intuition",
+      "Chinese: Symbol of longevity and good fortune",
+      "Buddhist: Symbol of gentleness and compassion"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "scientificName": "Testudines",
+    "primaryTraits": ["Patience", "Wisdom", "Longevity", "Protection"],
+    "description": "The Turtle spirit animal represents patience, wisdom, and longevity. Turtles are ancient, wise creatures who move slowly but steadily through life. They are symbols of patience, wisdom, and the ability to carry the weight of the world while maintaining inner peace and stability.",
+    "strengths": [
+      "Exceptional patience and persistence",
+      "Ancient wisdom and knowledge",
+      "Longevity and endurance",
+      "Protective nature",
+      "Connection to earth and water",
+      "Steady and reliable progress"
+    ],
+    "challenges": [
+      "Can be overly slow",
+      "May struggle with change",
+      "Tendency to be overly cautious",
+      "Can be seen as boring"
+    ],
+    "lifeLesson": "Learn to balance patience with action, and remember that slow and steady progress often leads to the most lasting and meaningful results.",
+    "mythologyBackground": "In many cultures, the turtle represents the earth and is seen as carrying the world on its back. In Native American traditions, turtles are symbols of creation and the earth. Chinese traditions see turtles as symbols of longevity and wisdom.",
+    "colorSymbolism": "Green, brown, and gold - representing nature, earth, and wisdom.",
+    "compatibleAnimals": ["bear", "elephant", "owl"],
+    "imageUrl": "/images/animals/turtle.jpg",
+    "habitat": "Oceans, rivers, lakes, and land across most continents",
+    "culturalSignificance": [
+      "Native American: Symbol of creation and earth",
+      "Chinese: Symbol of longevity and wisdom",
+      "Hindu: Associated with Kurma, the second avatar of Vishnu",
+      "African: Symbol of wisdom and patience"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "hawk",
+    "name": "Hawk",
+    "scientificName": "Accipitridae",
+    "primaryTraits": ["Focus", "Intensity", "Clarity", "Vision"],
+    "description": "The Hawk spirit animal embodies focus, intensity, and clear vision. Hawks are powerful birds of prey who possess incredible focus and the ability to see clearly from great distances. They are symbols of clarity, focus, and the ability to see opportunities and challenges with precision.",
+    "strengths": [
+      "Exceptional focus and concentration",
+      "Clear vision and perspective",
+      "Intensity and determination",
+      "Ability to see opportunities clearly",
+      "Swift and decisive action",
+      "Connection to the spiritual realm"
+    ],
+    "challenges": [
+      "Can be overly intense",
+      "May struggle with patience",
+      "Tendency to be aggressive",
+      "Can be intimidating to others"
+    ],
+    "lifeLesson": "Learn to balance your intensity with gentleness, and remember that true power comes from focused intention and clear vision.",
+    "mythologyBackground": "In Native American traditions, hawks are messengers from the spirit world and represent clear vision. In Egyptian mythology, hawks are associated with Horus and represent divine protection. Celtic traditions see hawks as symbols of focus and determination.",
+    "colorSymbolism": "Brown, gold, and white - representing earth, sun, and spiritual purity.",
+    "compatibleAnimals": ["eagle", "lion", "panther"],
+    "imageUrl": "/images/animals/hawk.jpg",
+    "habitat": "Open areas, forests, and mountains across most continents",
+    "culturalSignificance": [
+      "Native American: Messenger from spirit world",
+      "Egyptian: Associated with Horus and divine protection",
+      "Celtic: Symbol of focus and determination",
+      "Greek: Associated with Apollo and prophecy"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "otter",
+    "name": "Otter",
+    "scientificName": "Lutrinae",
+    "primaryTraits": ["Playfulness", "Joy", "Creativity", "Adaptability"],
+    "description": "The Otter spirit animal represents playfulness, joy, and creative adaptability. Otters are incredibly playful and joyful creatures who find fun in everything they do. They are symbols of joy, creativity, and the ability to adapt to changing circumstances with grace and humor.",
+    "strengths": [
+      "Infectious joy and playfulness",
+      "Creative problem-solving",
+      "Adaptability and flexibility",
+      "Strong social connections",
+      "Optimistic outlook",
+      "Ability to find joy in simple things"
+    ],
+    "challenges": [
+      "Can be overly playful",
+      "May struggle with serious situations",
+      "Tendency to avoid responsibility",
+      "Can be seen as immature"
+    ],
+    "lifeLesson": "Learn to balance playfulness with responsibility, and remember that joy and creativity are powerful forces for healing and connection in the world.",
+    "mythologyBackground": "In Native American traditions, otters are symbols of joy and playfulness. In Celtic traditions, otters are associated with water spirits and represent adaptability. Japanese folklore sees otters as shape-shifting spirits with magical powers.",
+    "colorSymbolism": "Brown, silver, and white - representing earth, water, and joy.",
+    "compatibleAnimals": ["dolphin", "monkey", "fox"],
+    "imageUrl": "/images/animals/otter.jpg",
+    "habitat": "Rivers, lakes, and coastal areas across most continents",
+    "culturalSignificance": [
+      "Native American: Symbol of joy and playfulness",
+      "Celtic: Associated with water spirits and adaptability",
+      "Japanese: Shape-shifting spirits with magical powers",
+      "Inuit: Symbol of adaptability and survival"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "monkey",
+    "name": "Monkey",
+    "scientificName": "Primates",
+    "primaryTraits": ["Intelligence", "Curiosity", "Community", "Adaptability"],
+    "description": "The Monkey spirit animal embodies intelligence, curiosity, and strong community bonds. Monkeys are incredibly intelligent and social creatures who are always curious and learning. They are symbols of intelligence, curiosity, and the importance of community and social connection.",
+    "strengths": [
+      "High intelligence and curiosity",
+      "Strong social connections",
+      "Adaptability and flexibility",
+      "Playful and creative nature",
+      "Problem-solving abilities",
+      "Community-oriented mindset"
+    ],
+    "challenges": [
+      "Can be overly curious",
+      "May struggle with focus",
+      "Tendency to be mischievous",
+      "Can be seen as chaotic"
+    ],
+    "lifeLesson": "Learn to balance curiosity with focus, and remember that intelligence and creativity are most powerful when used for the benefit of the community.",
+    "mythologyBackground": "In Hindu mythology, the monkey god Hanuman represents devotion and strength. In Chinese culture, monkeys are symbols of intelligence and good fortune. Native American traditions see monkeys as symbols of curiosity and adaptability.",
+    "colorSymbolism": "Brown, gold, and various colors - representing earth, intelligence, and diversity.",
+    "compatibleAnimals": ["dolphin", "otter", "raven"],
+    "imageUrl": "/images/animals/monkey.jpg",
+    "habitat": "Forests, jungles, and grasslands across Africa, Asia, and the Americas",
+    "culturalSignificance": [
+      "Hindu: Associated with Hanuman, devotion and strength",
+      "Chinese: Symbol of intelligence and good fortune",
+      "Native American: Symbol of curiosity and adaptability",
+      "Buddhist: Symbol of the restless mind"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "butterfly",
+    "name": "Butterfly",
+    "scientificName": "Lepidoptera",
+    "primaryTraits": ["Transformation", "Beauty", "Rebirth", "Grace"],
+    "description": "The Butterfly spirit animal represents transformation, beauty, and rebirth. Butterflies undergo incredible metamorphosis, transforming from caterpillars into beautiful, graceful creatures. They are symbols of transformation, rebirth, and the ability to embrace change with grace and beauty.",
+    "strengths": [
+      "Powerful transformation abilities",
+      "Grace and beauty",
+      "Ability to embrace change",
+      "Connection to cycles of life",
+      "Lightness and joy",
+      "Symbol of hope and renewal"
+    ],
+    "challenges": [
+      "Can be seen as fragile",
+      "May struggle with permanence",
+      "Tendency to be flighty",
+      "Can be overly focused on appearance"
+    ],
+    "lifeLesson": "Learn to embrace transformation as a natural part of growth, and remember that true beauty comes from within and is expressed through grace and authenticity.",
+    "mythologyBackground": "In many cultures, butterflies represent the soul and transformation. In Greek mythology, butterflies are associated with Psyche and represent the soul's journey. Native American traditions see butterflies as symbols of transformation and joy.",
+    "colorSymbolism": "All colors - representing the full spectrum of transformation and beauty.",
+    "compatibleAnimals": ["snake", "dragonfly", "hummingbird"],
+    "imageUrl": "/images/animals/butterfly.jpg",
+    "habitat": "Gardens, meadows, and forests worldwide",
+    "culturalSignificance": [
+      "Greek: Associated with Psyche and the soul's journey",
+      "Native American: Symbol of transformation and joy",
+      "Chinese: Symbol of love and happiness",
+      "Celtic: Symbol of the soul and transformation"
+    ],
+    "tier": 4
+  }
+]

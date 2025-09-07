@@ -1,0 +1,459 @@
+/**
+ * Global CSS Styles for Spirit Animal Discovery Website
+ * 
+ * This file contains the base styles, Tailwind CSS imports, and custom
+ * CSS for the entire application. It includes the design system colors,
+ * typography, and mystical animations.
+ * 
+ * Author: Spirit Animal Discovery Team
+ * Date: 2024
+ * Purpose: Global styling and design system implementation
+ * 
+ * Contents:
+ * - Tailwind CSS base imports
+ * - Custom CSS variables for design system
+ * - Global typography styles
+ * - Custom animations and transitions
+ * - Responsive design utilities
+ */
+
+/* Import Tailwind CSS base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts for typography system */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* CSS Custom Properties for Design System */
+:root {
+  /* Primary Brand Colors */
+  --mystic-sage: #9CAF88;
+  --forest-whisper: #6B7C5E;
+  --moon-beige: #F5F1EB;
+  --earth-clay: #D4B896;
+  --charcoal-mist: #3C3C3C;
+  --silver-fog: #8A8A8A;
+  
+  /* Accent Colors */
+  --golden-amber: #E6B85C;
+  --deep-forest: #2C4A3B;
+  --soft-ivory: #FEFCF8;
+  
+  /* Typography */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-accent: 'Crimson Text', serif;
+  
+  /* Spacing and Layout */
+  --container-max-width: 1200px;
+  --section-padding: 4rem 0;
+  --card-padding: 2rem;
+  --border-radius: 0.75rem;
+  
+  /* Shadows and Effects */
+  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-large: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+}
+
+/* Base HTML and Body Styles */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--charcoal-mist);
+  background-color: var(--moon-beige);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--charcoal-mist);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+/* Paragraph and Text Styles */
+p {
+  margin-bottom: 1rem;
+  color: var(--charcoal-mist);
+}
+
+.text-accent {
+  font-family: var(--font-accent);
+  font-style: italic;
+  color: var(--forest-whisper);
+}
+
+/* Link Styles */
+a {
+  color: var(--mystic-sage);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--forest-whisper);
+  text-decoration: underline;
+}
+
+/* Button Base Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-soft);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-soft);
+}
+
+/* Button Variants */
+.btn-primary {
+  background-color: var(--mystic-sage);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--forest-whisper);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--deep-forest);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--charcoal-mist);
+  color: white;
+}
+
+.btn-accent {
+  background-color: var(--golden-amber);
+  color: var(--charcoal-mist);
+}
+
+.btn-accent:hover {
+  background-color: var(--earth-clay);
+  color: var(--charcoal-mist);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--mystic-sage);
+  border: 2px solid var(--mystic-sage);
+}
+
+.btn-outline:hover {
+  background-color: var(--mystic-sage);
+  color: white;
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--soft-ivory);
+  border-radius: var(--border-radius);
+  padding: var(--card-padding);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(156, 175, 136, 0.1);
+  transition: all var(--transition-normal);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+.card-mystical {
+  background: linear-gradient(135deg, var(--soft-ivory) 0%, var(--moon-beige) 100%);
+  border: 1px solid var(--mystic-sage);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-mystical::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--mystic-sage), var(--golden-amber), var(--mystic-sage));
+}
+
+/* Container and Layout */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGentle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+/* Animation Classes */
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+.animate-pulse-gentle {
+  animation: pulseGentle 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  background-size: 200px 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Mystical Effects */
+.mystical-glow {
+  box-shadow: 0 0 20px rgba(156, 175, 136, 0.3);
+}
+
+.mystical-border {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--soft-ivory), var(--soft-ivory)) padding-box,
+              linear-gradient(45deg, var(--mystic-sage), var(--golden-amber)) border-box;
+}
+
+/* Form Styles */
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid rgba(156, 175, 136, 0.2);
+  border-radius: var(--border-radius);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  background-color: var(--soft-ivory);
+  color: var(--charcoal-mist);
+  transition: all var(--transition-fast);
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--mystic-sage);
+  box-shadow: 0 0 0 3px rgba(156, 175, 136, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  color: var(--charcoal-mist);
+}
+
+/* Utility Classes */
+.text-mystic-sage { color: var(--mystic-sage); }
+.text-forest-whisper { color: var(--forest-whisper); }
+.text-golden-amber { color: var(--golden-amber); }
+.text-charcoal-mist { color: var(--charcoal-mist); }
+.text-silver-fog { color: var(--silver-fog); }
+
+.bg-mystic-sage { background-color: var(--mystic-sage); }
+.bg-forest-whisper { background-color: var(--forest-whisper); }
+.bg-moon-beige { background-color: var(--moon-beige); }
+.bg-soft-ivory { background-color: var(--soft-ivory); }
+
+.border-mystic-sage { border-color: var(--mystic-sage); }
+.border-forest-whisper { border-color: var(--forest-whisper); }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 2rem 0;
+    --card-padding: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+  }
+  
+  h2 {
+    font-size: 1.875rem;
+  }
+  
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background-color: white;
+    color: black;
+  }
+  
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus Styles for Accessibility */
+*:focus {
+  outline: 2px solid var(--mystic-sage);
+  outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  :root {
+    --mystic-sage: #2D5016;
+    --forest-whisper: #1A3009;
+    --charcoal-mist: #000000;
+    --silver-fog: #333333;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // TypeScript configuration for Spirit Animal Discovery Website
+    // This file defines how TypeScript should compile the project
+    "target": "es5",                    // Compile to ES5 for broad browser support
+    "lib": ["dom", "dom.iterable", "es6"], // Include DOM and ES6 libraries
+    "allowJs": true,                    // Allow JavaScript files
+    "skipLibCheck": true,               // Skip type checking of declaration files
+    "strict": true,                     // Enable strict type checking
+    "noEmit": true,                     // Don't emit compiled files (Next.js handles this)
+    "esModuleInterop": true,            // Enable ES module interoperability
+    "module": "esnext",                 // Use ES modules
+    "moduleResolution": "bundler",      // Use bundler module resolution
+    "resolveJsonModule": true,          // Allow importing JSON files
+    "isolatedModules": true,            // Ensure each file can be safely transpiled
+    "jsx": "preserve",                  // Preserve JSX for Next.js
+    "incremental": true,                // Enable incremental compilation
+    "plugins": [
+      {
+        "name": "next"                  // Next.js TypeScript plugin
+      }
+    ],
+    "baseUrl": ".",                     // Base directory for module resolution
+    "paths": {
+      "@/*": ["./src/*"]                // Path mapping for cleaner imports
+    }
+  },
+  "include": [
+    "next-env.d.ts",                   // Next.js type definitions
+    "**/*.ts",                         // All TypeScript files
+    "**/*.tsx",                        // All TypeScript React files
+    ".next/types/**/*.ts"              // Next.js generated types
+  ],
+  "exclude": [
+    "node_modules"                     // Exclude node_modules from compilation
+  ]
+}

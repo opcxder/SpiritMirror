@@ -1,0 +1,872 @@
+[
+  {
+    "id": "q1",
+    "text": "When faced with a challenge, what's your first instinct?",
+    "category": "behavioral",
+    "order": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Analyze carefully and plan",
+        "points": {
+          "owl": 3,
+          "raven": 2,
+          "bear": 1
+        }
+      },
+      {
+        "id": "B", 
+        "text": "Charge forward confidently",
+        "points": {
+          "lion": 3,
+          "tiger": 2,
+          "eagle": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Seek support from others",
+        "points": {
+          "wolf": 3,
+          "elephant": 2,
+          "dolphin": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Trust intuition and adapt",
+        "points": {
+          "fox": 3,
+          "raven": 2,
+          "cat": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Observe and wait for the right moment",
+        "points": {
+          "panther": 3,
+          "snake": 2,
+          "owl": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "What size group makes you feel most comfortable?",
+    "category": "social",
+    "order": 2,
+    "options": [
+      {
+        "id": "A",
+        "text": "Large groups and parties",
+        "points": {
+          "dolphin": 3,
+          "horse": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Small trusted circle",
+        "points": {
+          "wolf": 3,
+          "bear": 2,
+          "cat": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "One-on-one interactions",
+        "points": {
+          "owl": 3,
+          "fox": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Completely alone",
+        "points": {
+          "panther": 3,
+          "eagle": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "It depends on my mood",
+        "points": {
+          "raven": 3,
+          "fox": 2,
+          "cat": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "Which environment calls to your soul?",
+    "category": "environmental",
+    "order": 3,
+    "options": [
+      {
+        "id": "A",
+        "text": "Dense forests",
+        "points": {
+          "bear": 3,
+          "wolf": 2,
+          "deer": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Open skies and mountains",
+        "points": {
+          "eagle": 3,
+          "hawk": 2,
+          "lion": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ocean and water bodies",
+        "points": {
+          "dolphin": 3,
+          "otter": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Desert and arid lands",
+        "points": {
+          "snake": 3,
+          "fox": 2,
+          "coyote": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Urban jungle",
+        "points": {
+          "raven": 3,
+          "cat": 2,
+          "rat": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "How do you make important decisions?",
+    "category": "decision-making",
+    "order": 4,
+    "options": [
+      {
+        "id": "A",
+        "text": "Extensive research and analysis",
+        "points": {
+          "owl": 3,
+          "elephant": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Pure instinct and gut feeling",
+        "points": {
+          "tiger": 3,
+          "hawk": 2,
+          "horse": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Consulting trusted advisors",
+        "points": {
+          "wolf": 3,
+          "elephant": 2,
+          "bear": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Trial and error approach",
+        "points": {
+          "fox": 3,
+          "monkey": 2,
+          "otter": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Meditation and reflection",
+        "points": {
+          "turtle": 3,
+          "owl": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "What drives you most in life?",
+    "category": "motivation",
+    "order": 5,
+    "options": [
+      {
+        "id": "A",
+        "text": "Personal achievement",
+        "points": {
+          "lion": 3,
+          "eagle": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Helping others",
+        "points": {
+          "dolphin": 3,
+          "elephant": 2,
+          "wolf": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Knowledge and wisdom",
+        "points": {
+          "owl": 3,
+          "raven": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Freedom and independence",
+        "points": {
+          "eagle": 3,
+          "cat": 2,
+          "horse": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Family and relationships",
+        "points": {
+          "wolf": 3,
+          "bear": 2,
+          "elephant": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "How do you handle conflicts?",
+    "category": "conflict",
+    "order": 6,
+    "options": [
+      {
+        "id": "A",
+        "text": "Face them head-on",
+        "points": {
+          "lion": 3,
+          "tiger": 2,
+          "bear": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Seek peaceful resolution",
+        "points": {
+          "dove": 3,
+          "elephant": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Avoid and walk away",
+        "points": {
+          "deer": 3,
+          "rabbit": 2,
+          "cat": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Use strategy and cunning",
+        "points": {
+          "fox": 3,
+          "raven": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Mediate and find compromise",
+        "points": {
+          "owl": 3,
+          "wolf": 2,
+          "elephant": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "text": "What time of day do you feel most energized?",
+    "category": "behavioral",
+    "order": 7,
+    "options": [
+      {
+        "id": "A",
+        "text": "Early morning (dawn)",
+        "points": {
+          "rooster": 3,
+          "eagle": 2,
+          "lion": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Mid-morning",
+        "points": {
+          "squirrel": 3,
+          "rabbit": 2,
+          "deer": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Afternoon",
+        "points": {
+          "bear": 3,
+          "elephant": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Evening (dusk)",
+        "points": {
+          "owl": 3,
+          "fox": 2,
+          "cat": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Late night",
+        "points": {
+          "panther": 3,
+          "raven": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "text": "What's your approach to risk?",
+    "category": "behavioral",
+    "order": 8,
+    "options": [
+      {
+        "id": "A",
+        "text": "Embrace all risks",
+        "points": {
+          "tiger": 3,
+          "eagle": 2,
+          "lion": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Calculate risks carefully",
+        "points": {
+          "fox": 3,
+          "owl": 2,
+          "raven": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Avoid risks when possible",
+        "points": {
+          "turtle": 3,
+          "rabbit": 2,
+          "deer": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Take calculated risks",
+        "points": {
+          "wolf": 3,
+          "bear": 2,
+          "elephant": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Risk depends on the situation",
+        "points": {
+          "panther": 3,
+          "cat": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "text": "How do you prefer to communicate?",
+    "category": "social",
+    "order": 9,
+    "options": [
+      {
+        "id": "A",
+        "text": "Direct and straightforward",
+        "points": {
+          "lion": 3,
+          "eagle": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Gentle and diplomatic",
+        "points": {
+          "dove": 3,
+          "deer": 2,
+          "rabbit": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Through stories and metaphors",
+        "points": {
+          "raven": 3,
+          "owl": 2,
+          "fox": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Non-verbal and intuitive",
+        "points": {
+          "cat": 3,
+          "panther": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Playful and humorous",
+        "points": {
+          "dolphin": 3,
+          "otter": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "How do you respond to stress?",
+    "category": "behavioral",
+    "order": 10,
+    "options": [
+      {
+        "id": "A",
+        "text": "Push through with determination",
+        "points": {
+          "bull": 3,
+          "lion": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Seek comfort from others",
+        "points": {
+          "elephant": 3,
+          "wolf": 2,
+          "dolphin": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Withdraw and reflect",
+        "points": {
+          "turtle": 3,
+          "owl": 2,
+          "bear": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Find creative solutions",
+        "points": {
+          "fox": 3,
+          "raven": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Escape to nature",
+        "points": {
+          "deer": 3,
+          "eagle": 2,
+          "wolf": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "text": "What's your leadership style?",
+    "category": "social",
+    "order": 11,
+    "options": [
+      {
+        "id": "A",
+        "text": "Lead from the front",
+        "points": {
+          "lion": 3,
+          "eagle": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Lead by example",
+        "points": {
+          "wolf": 3,
+          "elephant": 2,
+          "bear": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Collaborative leadership",
+        "points": {
+          "dolphin": 3,
+          "elephant": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Behind-the-scenes guidance",
+        "points": {
+          "owl": 3,
+          "fox": 2,
+          "raven": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Prefer to follow",
+        "points": {
+          "deer": 3,
+          "rabbit": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "text": "How do you solve problems?",
+    "category": "decision-making",
+    "order": 12,
+    "options": [
+      {
+        "id": "A",
+        "text": "Systematic analysis",
+        "points": {
+          "owl": 3,
+          "elephant": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Creative brainstorming",
+        "points": {
+          "monkey": 3,
+          "raven": 2,
+          "fox": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Team collaboration",
+        "points": {
+          "wolf": 3,
+          "dolphin": 2,
+          "elephant": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Intuitive leaps",
+        "points": {
+          "cat": 3,
+          "panther": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Trial and error",
+        "points": {
+          "otter": 3,
+          "fox": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "text": "How do you express emotions?",
+    "category": "behavioral",
+    "order": 13,
+    "options": [
+      {
+        "id": "A",
+        "text": "Openly and passionately",
+        "points": {
+          "lion": 3,
+          "tiger": 2,
+          "dolphin": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Calmly and controlled",
+        "points": {
+          "elephant": 3,
+          "bear": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Through creative expression",
+        "points": {
+          "raven": 3,
+          "fox": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Privately and quietly",
+        "points": {
+          "cat": 3,
+          "owl": 2,
+          "panther": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Through physical activity",
+        "points": {
+          "horse": 3,
+          "eagle": 2,
+          "tiger": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "text": "What's your preference: adventure or stability?",
+    "category": "motivation",
+    "order": 14,
+    "options": [
+      {
+        "id": "A",
+        "text": "Always seeking adventure",
+        "points": {
+          "eagle": 3,
+          "tiger": 2,
+          "horse": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Prefer stability and routine",
+        "points": {
+          "turtle": 3,
+          "bear": 2,
+          "elephant": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Balance of both",
+        "points": {
+          "wolf": 3,
+          "fox": 2,
+          "raven": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Adventure in small doses",
+        "points": {
+          "cat": 3,
+          "otter": 2,
+          "monkey": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Depends on the situation",
+        "points": {
+          "panther": 3,
+          "owl": 2,
+          "snake": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "text": "How do you build trust with others?",
+    "category": "social",
+    "order": 15,
+    "options": [
+      {
+        "id": "A",
+        "text": "Through consistent actions",
+        "points": {
+          "elephant": 3,
+          "bear": 2,
+          "turtle": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "By being vulnerable first",
+        "points": {
+          "wolf": 3,
+          "dolphin": 2,
+          "deer": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Through shared experiences",
+        "points": {
+          "monkey": 3,
+          "otter": 2,
+          "dolphin": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "By proving competence",
+        "points": {
+          "eagle": 3,
+          "lion": 2,
+          "hawk": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Through deep conversations",
+        "points": {
+          "owl": 3,
+          "raven": 2,
+          "fox": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "I don't know yet",
+        "points": {}
+      }
+    ]
+  }
+]
